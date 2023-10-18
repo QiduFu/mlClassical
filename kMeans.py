@@ -1,7 +1,7 @@
 #This project is based on the assignments completed for the Coursera specialization: 
 #Machine Learning by Andrew Ng (Stanford)
 
-#Title: Building KMeans for clustering From Scratch
+#Title: Building kMeans for clustering From Scratch
 #By: Qidu(Quentin) Fu
 
 #Import libraries ------------------------------------------------------------
@@ -9,7 +9,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-#Implement KMeans ------------------------------------------------------------
+#Implement kMeans ------------------------------------------------------------
 #------------------------------------------------------------------------------
 
 #Find the closest centroid for each example
@@ -35,8 +35,8 @@ def compute_cetroids(X, idx, K):
         centroids[k,:] = np.mean(points, axis = 0)
     return centroids
 
-#Run KMeans
-def run_KMeans(X, initial_centroids, max_iters=10, plot_progress=False):
+#Run kMeans
+def run_kMeans(X, initial_centroids, max_iters=10, plot_progress=False):
     m, n = X.shape
     K = initial_centroids.shape[0]
     centroids = initial_centroids
@@ -44,7 +44,7 @@ def run_KMeans(X, initial_centroids, max_iters=10, plot_progress=False):
     idx = np.zeros((m, 1))
     plt.figure(figsize=(10,6))
     for i in range(max_iters):
-        print('KMeans iteration {}/{}'.format(i+1, max_iters))
+        print('kMeans iteration {}/{}'.format(i+1, max_iters))
         idx = find_closest_centroids(X, centroids)
         centroids = compute_cetroids(X, idx, K)
         if plot_progress:
@@ -56,7 +56,7 @@ def run_KMeans(X, initial_centroids, max_iters=10, plot_progress=False):
     return centroids, idx
 
 #Random initialization
-def KMeans_init_centroids(X, K):
+def kMeans_init_centroids(X, K):
     m, n = X.shape
     rand_idx = np.random.permutation(m)
     centroids = X[rand_idx[0:K], :]

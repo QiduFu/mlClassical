@@ -65,10 +65,8 @@ def multivariate_guassian(X_train, mu, var):
     )
     return p
 
-
 # Collaborative filter recommender--------------------------------------------------------------
 from numpy import loadtxt
-
 
 def normalizeRatings(Y, R):
     """
@@ -123,13 +121,13 @@ def load_Movie_List_pd():
 
 # nn for content based filtering--------------------------------------------------------------
 
-import pickle5 as pickle
+import pickle
 import numpy as np
 from numpy import genfromtxt
 from collections import defaultdict
 import pandas as pd
 import tensorflow as tf
-from tensorflow.keras.models import Model
+from keras.models import Model
 from sklearn.preprocessing import StandardScaler, MinMaxScaler
 from sklearn.model_selection import train_test_split
 import csv

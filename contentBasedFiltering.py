@@ -14,7 +14,7 @@ from tensorflow import keras
 from sklearn.preprocessing import StandardScaler, MinMaxScaler
 from sklearn.model_selection import train_test_split
 import tabulate
-from utilsUnsupervise import *
+from utils2 import *
 
 # Load Data, set configuration variables
 (

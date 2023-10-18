@@ -6,7 +6,7 @@ By Qidu(Quentin) Fu
 - [2 Acknowledgements](#2)
 
 <a name='1'></a>
-## 1 Introduction and Projection
+## 1 Introduction and Projects
 This repository includes common machine learning models implemented from scratch. The models are implemented in Python 3.7. The models are implemented in the following projects:
 - Project1: [linearRegression](linearRegression.py)
 - Project2: [logisticRegression](logisticRegression.py)
@@ -20,7 +20,7 @@ This repository includes common machine learning models implemented from scratch
 - Project10: [contentBasedFiltering](contentBasedFiltering.py)
 
 
-Note that the some helper functions are written in the [`utilsRegression.py`](utilsRegression.py) and [`utilsUnsupervise.py`](utilsUnsupervise.py) files. Please refer to the code and utils files for more details.
+Note that the some helper functions are written in the [`utilsRegression.py`](utilsRegression.py) and [`utilsUnsupervise.py`](utils2.py) files. Please refer to the code and utils files for more details.
 
 <a name='2'></a>
 ## 2 Acknowledgement
