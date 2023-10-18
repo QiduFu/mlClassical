@@ -26,4 +26,4 @@ Note that the some helper functions are written in the [`utilsRegression.py`](ut
 
 <a name='2'></a>
 ## 2 Acknowledgement
-These are assignments completed by Coursera's Machine Learning Specialization by Andrew Ng at Stanford and DeepLearning.Ai. The course is available at: https://www.coursera.org/specializations/machine-learning-introduction. The code base, dataset, and problem statements are from the course. The code is written by myself.
+These are assignments completed for the Coursera's Machine Learning Specialization by Andrew Ng at Stanford and DeepLearning.Ai. The course is available at: https://www.coursera.org/specializations/machine-learning-introduction. The code base, dataset, and problem statements are from the course. The code is written by myself.
