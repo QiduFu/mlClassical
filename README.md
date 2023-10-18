@@ -1,13 +1,15 @@
 # Classical ML Models 
 By Qidu(Quentin) Fu
 
+This repository stores the code for the classical machine learning models. The models are implemented from scratch. The models are implemented in Python 3.7. 
+
 ## Outline
 - [1 Introduction and Projections](#1)
 - [2 Acknowledgements](#2)
 
 <a name='1'></a>
 ## 1 Introduction and Projects
-This repository includes common machine learning models implemented from scratch. The models are implemented in Python 3.7. The models are implemented in the following projects:
+The models are implemented in the following projects:
 - Project1: [linearRegression](linearRegression.py)
 - Project2: [logisticRegression](logisticRegression.py)
 - Project3: [neutralNetworkForBinaryClassification](nnForBinary.py)
