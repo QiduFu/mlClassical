@@ -1,7 +1,7 @@
 # Classical ML Models 
 By Qidu(Quentin) Fu
 
-This repository stores the code for the classical machine learning models. The models are implemented from scratch. The models are implemented in Python 3.7. 
+This repository stores the code for the classical machine learning models. The models (assignments completed for the [machine learning specialization at Coursera](#2)) are implemented from scratch in Python 3.7. 
 
 ## Outline
 - [1 Introduction and Projections](#1)
