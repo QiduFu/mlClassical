@@ -22,7 +22,7 @@ The models are implemented in the following projects:
 - Project10: [contentBasedFiltering](contentBasedFiltering.py)
 
 
-Note that the some helper functions are written in the [`utilsRegression.py`](utilsRegression.py) and [`utilsUnsupervise.py`](utils2.py) files. Please refer to the code and utils files for more details.
+Note that the some helper functions are written in the [`utilsRegression.py`](utilsRegression.py) and [`utils2.py`](utils2.py) files. Please refer to the code and utils files for more details.
 
 <a name='2'></a>
 ## 2 Acknowledgement
